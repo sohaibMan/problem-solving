@@ -16,4 +16,4 @@ add_executable(letcode
         "733. Flood Fill/Solution.cpp"
         "965. Univalued Binary Tree/Solution.cpp"
         "Palindrome Number/Solution.c"
-        Test/test.c)
+        Test/test.c "1609. Even Odd Tree/Main.cpp")

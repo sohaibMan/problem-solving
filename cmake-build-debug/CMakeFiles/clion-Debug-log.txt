@@ -1,0 +1,4 @@
+/home/sohaib/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/sohaib/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/231.8109.222/bin/ninja/linux/x64/ninja -G Ninja -S /home/sohaib/Desktop/letcode -B /home/sohaib/Desktop/letcode/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sohaib/Desktop/letcode/cmake-build-debug
