@@ -11,15 +11,15 @@ function alternateDigitSum(n) {
   return sum;
 }
 console.log(
-  "🚀 ~ file: Solution.ts:6 ~ alternateDigitSum(521):",
+  "🚀 ~ file: Solution.cpp.ts:6 ~ alternateDigitSum(521):",
   alternateDigitSum(521)
 );
 console.log(
-  "🚀 ~ file: Solution.ts:8 ~ alternateDigitSum(111):",
+  "🚀 ~ file: Solution.cpp.ts:8 ~ alternateDigitSum(111):",
   alternateDigitSum(111)
 );
 console.log(
-  "🚀 ~ file: Solution.ts:10 ~ alternateDigitSum(886996);:",
+  "🚀 ~ file: Solution.cpp.ts:10 ~ alternateDigitSum(886996);:",
   alternateDigitSum(886996)
 );
 
