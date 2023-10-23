@@ -1,0 +1,3 @@
+/home/sohaib/Desktop/letcode/171. Excel Sheet Column Number /cmake-build-debug/CMakeFiles/171__Excel_Sheet_Column_Number_.dir
+/home/sohaib/Desktop/letcode/171. Excel Sheet Column Number /cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sohaib/Desktop/letcode/171. Excel Sheet Column Number /cmake-build-debug/CMakeFiles/rebuild_cache.dir

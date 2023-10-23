@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "322__Coin_Change_",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "322__Coin_Change_::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-322__Coin_Change_-Debug-4a0f1f3a40efaf0ebcc9.json",
+					"name" : "322__Coin_Change_",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sohaib/Desktop/letcode/322. Coin Change /cmake-build-debug",
+		"source" : "/home/sohaib/Desktop/letcode/322. Coin Change "
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
