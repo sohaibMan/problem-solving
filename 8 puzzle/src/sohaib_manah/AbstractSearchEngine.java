@@ -1,4 +1,4 @@
-package labyrinthe;
+package sohaib_manah;
 
 
 /**
@@ -18,8 +18,6 @@ public abstract class AbstractSearchEngine {
     }
 
     public abstract void run();
-
-
 
 
 }

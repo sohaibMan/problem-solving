@@ -1,4 +1,4 @@
-package labyrinthe;
+package sohaib_manah;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -19,7 +19,7 @@ public class BreadthFirstSearchEngine extends AbstractSearchEngine {
 
     HashMap<Integer, State> visited = new HashMap<>();
     Queue<State> queue = new LinkedList<>();// first in first out
-    int iterations = 1;
+    int cost = 0;
 
 
     public BreadthFirstSearchEngine(EightPuzzle eightPuzzle) {
@@ -31,24 +31,26 @@ public class BreadthFirstSearchEngine extends AbstractSearchEngine {
 
     @Override
     public void run() {
+
         while (!queue.isEmpty()) {
             State currentState = queue.poll();
             if (currentState.compareTo(eightPuzzle.getGoalState()) == 0) {
-                System.out.println("Goal state found after " + iterations + " iterations");
+                System.out.println("Goal state found after " + cost + " iterations");
                 break;
-            } else {
-                visited.put(currentState.hashCode(), currentState);
-                currentState.printState();
+            }
+            visited.put(currentState.hashCode(), currentState);
+            currentState.printState();
+            cost++;
 
-                for (State state : eightPuzzle.getPossibleMoves(currentState)) {
-                    // prevent loops
-                    if (!visited.containsKey(state.hashCode())) {
-                        iterations++;
-                        state.printState();
-                        queue.add(state);
-                    }
+
+            for (State state : eightPuzzle.getPossibleMoves(currentState)) {
+                // prevent loops
+                if (!visited.containsKey(state.hashCode())) {
+                    state.printState();
+                    queue.add(state);
                 }
             }
+
         }
 
 

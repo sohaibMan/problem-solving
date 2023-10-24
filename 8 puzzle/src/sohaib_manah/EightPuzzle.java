@@ -1,4 +1,4 @@
-package labyrinthe;
+package sohaib_manah;
 
 import java.awt.*;
 import java.util.LinkedList;
@@ -39,14 +39,14 @@ public class EightPuzzle {
 
         for (Point possibleDirection : possibleDirections) {
             // check if the possible direction is within the bounds of the puzzle
-            if (possibleDirection.x >= 0 && possibleDirection.x < currentState.state().length && possibleDirection.y >= 0 && possibleDirection.y < currentState.state().length) {
+            if (possibleDirection.x >= 0 && possibleDirection.x < currentState.getState().length && possibleDirection.y >= 0 && possibleDirection.y < currentState.getState().length) {
                 // clone the current state to the new state
-                int[][] newState = new int[currentState.state().length][currentState.state().length];
-                for (int i = 0; i < currentState.state().length; i++) {
-                    System.arraycopy(currentState.state()[i], 0, newState[i], 0, currentState.state()[i].length);
+                int[][] newState = new int[currentState.getState().length][currentState.getState().length];
+                for (int i = 0; i < currentState.getState().length; i++) {
+                    System.arraycopy(currentState.getState()[i], 0, newState[i], 0, currentState.getState()[i].length);
                 }
                 // swap the empty space with the possible direction
-                newState[emptySpaceCoordinates.x][emptySpaceCoordinates.y] = currentState.state()[possibleDirection.x][possibleDirection.y];
+                newState[emptySpaceCoordinates.x][emptySpaceCoordinates.y] = currentState.getState()[possibleDirection.x][possibleDirection.y];
                 newState[possibleDirection.x][possibleDirection.y] = 0;
                 possibleMoves.add(new State(newState));
             }
@@ -58,9 +58,9 @@ public class EightPuzzle {
 
     Point getEmptySpaceCoordinates(State state) {
         Point point = new Point();
-        for (int i = 0; i < state.state().length; i++) {
-            for (int j = 0; j < state.state()[i].length; j++) {
-                if (state.state()[i][j] == 0) {
+        for (int i = 0; i < state.getState().length; i++) {
+            for (int j = 0; j < state.getState()[i].length; j++) {
+                if (state.getState()[i][j] == 0) {
                     point.x = i;
                     point.y = j;
                     return point;

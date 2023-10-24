@@ -1,4 +1,4 @@
-package labyrinthe;
+package sohaib_manah;
 
 import java.util.HashMap;
 import java.util.Stack;
@@ -14,13 +14,12 @@ import java.util.Stack;
  */
 
 
-
 public class DepthFirstSearchEngine extends AbstractSearchEngine {
 
     HashMap<Integer, State> visited = new HashMap<>();
     Stack<State> stack = new Stack<>();// last in first out
 
-    int iterations = 1;
+    int cost = 0;
 
 
     public DepthFirstSearchEngine(EightPuzzle eightPuzzle) {
@@ -32,19 +31,20 @@ public class DepthFirstSearchEngine extends AbstractSearchEngine {
 
     @Override
     public void run() {
+
         while (!stack.empty()) {
             State currentState = stack.pop();
             if (currentState.compareTo(eightPuzzle.getGoalState()) == 0) {
-                System.out.println("Goal state found after " + iterations + " iterations");
+                System.out.println("Goal state found after " + cost + " iterations");
                 break;
             } else {
                 visited.put(currentState.hashCode(), currentState);
                 currentState.printState();
+                cost++;
 
                 for (State state : eightPuzzle.getPossibleMoves(currentState)) {
                     // prevent loops
                     if (!visited.containsKey(state.hashCode())) {
-                        iterations++;
                         state.printState();
                         stack.push(state);
                     }
