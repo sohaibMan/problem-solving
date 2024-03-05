@@ -1,0 +1,1 @@
+/home/sohaib/Desktop/problem-solving/1456.\ Maximum\ Number\ of\ Vowels\ in\ a\ Substring\ of\ Given\ Length/solution/target/debug/solution: /home/sohaib/Desktop/problem-solving/1456.\ Maximum\ Number\ of\ Vowels\ in\ a\ Substring\ of\ Given\ Length/solution/src/main.rs
