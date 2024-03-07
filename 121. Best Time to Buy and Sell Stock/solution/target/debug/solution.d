@@ -1,0 +1,1 @@
+/home/sohaib/Desktop/problem-solving/121.\ Best\ Time\ to\ Buy\ and\ Sell\ Stock/solution/target/debug/solution: /home/sohaib/Desktop/problem-solving/121.\ Best\ Time\ to\ Buy\ and\ Sell\ Stock/solution/src/main.rs

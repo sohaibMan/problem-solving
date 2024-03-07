@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.28)
+project(Minimum_operations_required_to_modify_the_array_such_that_parity_of_adjacent_elements_is_differen)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(Minimum_operations_required_to_modify_the_array_such_that_parity_of_adjacent_elements_is_differen main.cpp)

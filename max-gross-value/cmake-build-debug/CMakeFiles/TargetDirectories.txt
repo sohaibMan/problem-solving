@@ -1,0 +1,3 @@
+/home/sohaib/Desktop/problem-solving/max-gross-value/cmake-build-debug/CMakeFiles/max_gross_value.dir
+/home/sohaib/Desktop/problem-solving/max-gross-value/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sohaib/Desktop/problem-solving/max-gross-value/cmake-build-debug/CMakeFiles/rebuild_cache.dir

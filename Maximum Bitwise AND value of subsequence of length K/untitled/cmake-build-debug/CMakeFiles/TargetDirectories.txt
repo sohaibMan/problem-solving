@@ -1,0 +1,3 @@
+/home/sohaib/Desktop/problem-solving/Maximum Bitwise AND value of subsequence of length K/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+/home/sohaib/Desktop/problem-solving/Maximum Bitwise AND value of subsequence of length K/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sohaib/Desktop/problem-solving/Maximum Bitwise AND value of subsequence of length K/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Minimum_operations_required_to_modify_the_array_such_that_parity_of_adjacent_elements_is_differen",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Minimum_operations_required_to_modify_the_array_such_that_parity_of_adjacent_elements_is_differen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Minimum_operations_required_to_modify_the_array_such_that_parity_of_adjacent_elements_is_differen-Debug-754f76caa77647cd53b5.json",
+					"name" : "Minimum_operations_required_to_modify_the_array_such_that_parity_of_adjacent_elements_is_differen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sohaib/Desktop/problem-solving/Minimum operations required to modify the array such that parity of adjacent elements is differen/cmake-build-debug",
+		"source" : "/home/sohaib/Desktop/problem-solving/Minimum operations required to modify the array such that parity of adjacent elements is differen"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

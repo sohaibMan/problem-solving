@@ -1,0 +1,3 @@
+/home/sohaib/Desktop/problem-solving/Minimum operations required to modify the array such that parity of adjacent elements is differen/cmake-build-debug/CMakeFiles/Minimum_operations_required_to_modify_the_array_such_that_parity_of_adjacent_elements_is_differen.dir
+/home/sohaib/Desktop/problem-solving/Minimum operations required to modify the array such that parity of adjacent elements is differen/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sohaib/Desktop/problem-solving/Minimum operations required to modify the array such that parity of adjacent elements is differen/cmake-build-debug/CMakeFiles/rebuild_cache.dir
